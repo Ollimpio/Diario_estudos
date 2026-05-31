@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrar Estudo"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/edtMateria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Matéria"/>
+
+        <EditText
+            android:id="@+id/edtTempo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tempo em minutos"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/edtConteudo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Conteúdo estudado"/>
+
+        <EditText
+            android:id="@+id/edtAnotacao"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:hint="Anotações"/>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar"/>
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar ao Menu"/>
+    </LinearLayout>
+
+</ScrollView>
